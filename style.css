@@ -1,0 +1,144 @@
+
+body,html {
+    background-color: #eae0d8;
+    font-family: 'Raleway', sans-serif;
+    width: 800px;
+    height:600px;
+    margin-left: 0;
+}
+#header {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    position: fixed;
+    background-color: #FFF5EE50;
+}
+#Mylogo {
+    width: 30%;
+    text-align: center;
+    padding: 0;
+}
+#logo {
+    width:50%;
+    padding:6px;
+}
+#menu {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+.menu-item {
+    display: inline;
+    font-size: 1.5rem;
+    padding: 0 15px 0 15px;
+}
+.menu-yonlendirme {
+    color: black;
+}
+.menu-yonlendirme:hover {
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+#resimler{
+left: 100px;
+}
+
+#iletisim-kutusu {
+    color: #2b0707;
+    font-weight:600px;
+    text-align:justify ;
+    top:600px;
+    background-color: rgba(245, 191, 224, 0.4);
+    width: 40%;
+    border-radius: 14px;
+    box-shadow: #eae0d8;
+    margin: 2% 10%;
+
+}
+
+#myabout{
+    font-size: 14px;
+    text-align:center;
+    display: flex;
+    padding: 200px 0px 40px;
+    font-size :30px;
+    }
+
+h2{
+    text-align: center;
+    font-style: italic;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 44px;
+    margin: 10%;
+    color:rgb(216, 132, 58);    
+}
+
+p {
+    text-align: left;
+    text-align:center;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 44px;
+
+}
+/*padding: 200px 100px;
+padding: 300px 200px 100px 100px;*/
+
+.günlük
+{
+    margin: 20px 0 100px 0 ;
+    display: flex;
+    width: 140%;
+    padding: 100px 100px 60px 0px;
+    justify-content: space-evenly;
+}
+.günlük1{
+    margin:10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 80%;
+    left: 2px;
+    font-size: 22px;
+    background-color: rgb(228, 179, 188);
+    text-align: center;
+    border: 5px;
+
+}
+.günlük2{
+    margin:10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 80%;
+    left: 2px;
+    font-size: 18px;
+    background-color: rgb(121, 108, 114);
+    text-align: center;
+    border: 5px;
+}
+.günlük3{
+    margin:10px;
+    left: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    float: right;
+    font-size: 18px;
+    background-color: rgb(228, 179, 188);
+    text-align: center;
+    border: 5px;
+
+}
+.günlük4{
+    margin:10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 80%;
+    left: 2px;
+    font-size: 18px;
+    background-color: rgb(121, 108, 114);
+    text-align: center;
+    border: 5px;
+}
+
+
+ 
+  
